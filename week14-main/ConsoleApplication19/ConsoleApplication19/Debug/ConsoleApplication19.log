@@ -1,0 +1,30 @@
+﻿  ConsoleApplication19.cpp
+C:\Users\alex\source\repos\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(312,35): warning C4244: '=': conversion from 'inputType' to 'int', possible loss of data
+          with
+          [
+              inputType=double
+          ]
+C:\Users\alex\source\repos\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(386,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alex\source\repos\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(400,35): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\utility(193,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+C:\Users\alex\source\repos\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(278): message : see reference to function template instantiation 'std::pair<int,int>::pair<int&,double,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int &,
+              _Other2=double
+          ]
+C:\Users\alex\source\repos\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(278): message : see reference to function template instantiation 'std::pair<int,int>::pair<int&,double,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int &,
+              _Other2=double
+          ]
+  ConsoleApplication19.vcxproj -> C:\Users\alex\source\repos\ConsoleApplication19\Debug\ConsoleApplication19.exe

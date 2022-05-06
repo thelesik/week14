@@ -1,0 +1,10 @@
+﻿  ConsoleApplication19.cpp
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(194,32): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(273,24): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(400,35): warning C4244: '=': conversion from 'inputType' to 'int', possible loss of data
+          with
+          [
+              inputType=double
+          ]
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(511,38): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  ConsoleApplication19.vcxproj -> C:\Users\user\Downloads\week14-main\ConsoleApplication19\x64\Debug\ConsoleApplication19.exe
