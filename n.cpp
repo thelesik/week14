@@ -391,9 +391,11 @@ int Arrayofdata(vector<Person*>& l)
     ifstream ifs("file.txt");
     string temp;
     if (ifs.is_open()) {
-        while (getline(ifs, temp))
+        while (getline(ifs, temp)) {
             text_file.push_back(temp);
-        numberofplanets = stoi(text_file[0]);
+        }
+
+        //numberofplanets = stoi(text_file[0]);
 
         ifs.close();
 
@@ -403,6 +405,9 @@ int Arrayofdata(vector<Person*>& l)
         cout << "Error \n";
     }
 
+    for (int i = 0; i < text_file.size(); i++) {
+        cout << text_file[i] << endl;
+    }
     return 0;
 }
 
@@ -570,8 +575,8 @@ void MainPart()
                         outfile << own->getOwnerDate() << endl;
 
                     }
-                    outfile << endl;
-                    cout << endl << endl;
+                    outfile << "*separator*" << endl;
+                    
                 }
 
 
@@ -594,6 +599,9 @@ void MainPart()
             goto Check1;
 
         }
+        else if (choice == 9) {
+        Arrayofdata(persons);
+}
     }
 Check1:
     return;
