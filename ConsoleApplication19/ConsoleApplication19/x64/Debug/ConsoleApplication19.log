@@ -1,0 +1,12 @@
+﻿  ConsoleApplication19.cpp
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(179,32): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(258,24): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(374,9): warning C4101: 'numberofplanets': unreferenced local variable
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(417,35): warning C4244: '=': conversion from 'inputType' to 'int', possible loss of data
+          with
+          [
+              inputType=double
+          ]
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(528,42): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\user\Downloads\week14-main\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(414,11): warning C4102: 'Check2': unreferenced label
+  ConsoleApplication19.vcxproj -> C:\Users\user\Downloads\week14-main\ConsoleApplication19\x64\Debug\ConsoleApplication19.exe
